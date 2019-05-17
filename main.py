@@ -27,7 +27,7 @@ elif paso == "Desencriptar":
     archivo = open(str(os.getcwd())+"\\"+nombre+".txt","r+")
     nuevo = open(str(os.getcwd())+"\\"+nombre+"_Desencriptado"+".txt","w")
     frase = archivo.readline()
-    
+
         
 else:
     print("Ingresar opción plausible")
